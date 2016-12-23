@@ -140,6 +140,7 @@ public tskFixBotItems(i) {
 			give_item(i, "weapon_glock18")
 			cs_set_user_bpammo(i, 17, 40)
 		}
+		set_pdata_int(i, 116, 0);
 		processBot[targetBot[i]] = -1
 		targetBot[i] = -1
 	}
